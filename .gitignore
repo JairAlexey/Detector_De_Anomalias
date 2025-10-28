@@ -1,0 +1,61 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and runtime files
+*.log
+*.pid
+*.cache
+.pytest_cache/
+
+# Secrets / env
+.env
+.env.*
+
+# Large media / recordings
+media/
+media/logs/
+*.mp4
+*.webm
+
+# Outputs and generated data
+face_detection_output/
+faces/
+persons/
+alerts/
+
+# C/C++ build artifacts (dlib, etc.)
+build/temp*/
+*.pyd
+*.lib
+*.obj
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Misc
+*.sqlite
