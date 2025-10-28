@@ -48,6 +48,13 @@ faces/
 persons/
 alerts/
 
+# Models / binaries / wheels
+models/
+*.onnx
+*.pth
+*.pt
+*.whl
+
 # C/C++ build artifacts (dlib, etc.)
 build/temp*/
 *.pyd
@@ -59,3 +66,4 @@ build/temp*/
 
 # Misc
 *.sqlite
+models/*.onnx
